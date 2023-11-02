@@ -2,14 +2,14 @@ import React from 'react'
 
 import './MainPage.css'
 
-import Header from '../header/Header'
+import Navbar from '../navbar/Navbar'
 import FirstCarousel from '../carousel/firstCarousel/FirstCarousel'
 
 
 const MainPage = () => {
   return (
     <>
-        <Header />
+        <Navbar />
         <h2 className='wellcomeText'>Dobrodošli!</h2>
         <FirstCarousel />
     </>

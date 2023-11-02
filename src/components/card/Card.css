@@ -12,9 +12,10 @@
 
 .textCard {
     text-align: center;
-    margin-top: -1px;
+    margin-top: -2px;
     font-size: 3vw;
     color: #F7E987;
+    font-family: 'Bona Nova', serif;
 }
 
 .imgBurger {
