@@ -1,0 +1,26 @@
+.cardContainer {
+    background-color: #445069;
+    width: 23vw;
+    height: 35vw;
+    border-radius: 10vw;
+}
+
+.iconCard {
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+.textCard {
+    text-align: center;
+    margin-top: -1px;
+    font-size: 3vw;
+    color: #F7E987;
+}
+
+.imgBurger {
+    margin: 8px;
+    width: 19vw;
+    height: 21vw;
+    border-top-right-radius: 8vw;
+    border-top-left-radius: 8vw;
+}
