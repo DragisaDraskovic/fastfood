@@ -5,6 +5,7 @@ import './MainPage.css'
 import Navbar from '../navbar/Navbar'
 import FirstCarousel from '../carousel/firstCarousel/FirstCarousel'
 import Magic from '../magic/Magic'
+import MainFooter from '../footer/MainFooter'
 
 
 const MainPage = () => {
@@ -14,6 +15,7 @@ const MainPage = () => {
         <h2 className='wellcomeText'>Dobrodošli!</h2>
         <FirstCarousel />
         <Magic />
+        <MainFooter />
     </>
   )
 }

@@ -15,7 +15,7 @@ const FirstCarousel = () => {
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        <div className="embla__slide"><Card image={imgBurger} text='PLJESKAVICE'/></div>
+        <div className="embla__slide"><Card image={imgBurger} text='ROŠTILJ'/></div>
         <div className="embla__slide"><Card image={imgTortilla} text='TORTILJE'/></div>
         <div className="embla__slide"><Card image={imgFries} text='POMFRIT'/></div>
         <div className="embla__slide"><Card image={imgSendwitsch} text='SENDVIČI'/></div>

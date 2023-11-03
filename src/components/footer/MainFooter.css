@@ -1,0 +1,30 @@
+.footerContainer {
+    width: 100vw;
+    height: 15vw;
+    background-color: #445069;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textFooter {
+    font-size: 13px;
+    margin: 3px;
+    color: #191a1f;
+}
+
+.footerLocation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footerPhone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
