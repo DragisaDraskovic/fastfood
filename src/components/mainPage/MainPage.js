@@ -6,6 +6,7 @@ import Navbar from '../navbar/Navbar'
 import FirstCarousel from '../carousel/firstCarousel/FirstCarousel'
 import Magic from '../magic/Magic'
 import MainFooter from '../footer/MainFooter'
+import ScrollButton from '../scrollButton/ScrollButton'
 
 
 const MainPage = () => {
@@ -16,6 +17,7 @@ const MainPage = () => {
         <FirstCarousel />
         <Magic />
         <MainFooter />
+        <ScrollButton />
     </>
   )
 }
