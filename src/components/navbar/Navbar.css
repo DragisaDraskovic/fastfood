@@ -41,8 +41,8 @@
 }
 
 .menuXClass {
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
 }
 
 .menuOptions {
@@ -59,8 +59,11 @@
     margin: 10px;
     width: 200px;
     height: 300px;
+    border-radius: 50px;
+    box-shadow: 1px -1px 35px 10px #3b3d3e;
 }
 
 .menuText {
-    color: rgb(154, 160, 164)
+    color: rgb(154, 160, 164);
+    text-shadow: 1px 10px 15px #9AA0A4;
 }

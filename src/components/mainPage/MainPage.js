@@ -4,6 +4,7 @@ import './MainPage.css'
 
 import Navbar from '../navbar/Navbar'
 import FirstCarousel from '../carousel/firstCarousel/FirstCarousel'
+import Magic from '../magic/Magic'
 
 
 const MainPage = () => {
@@ -12,6 +13,7 @@ const MainPage = () => {
         <Navbar />
         <h2 className='wellcomeText'>Dobrodošli!</h2>
         <FirstCarousel />
+        <Magic />
     </>
   )
 }
