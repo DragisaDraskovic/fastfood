@@ -18,16 +18,13 @@
 
 .magicText {
     color: #F7E987;
-}
-
-.magicText:nth-child(2) {
-    margin-left: 20px;
-}
-
-.magicText:nth-child(3) {
-    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'El Messiri';
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .magicArrow {
-    margin-top: 1px;
+    margin: 20px;
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import { GiPalmTree as Palma } from 'react-icons/gi'
 import { VscChromeClose as X } from 'react-icons/vsc'
-import { animated, useSpring } from 'react-spring'
+import { animated, config, useSpring } from 'react-spring'
 
 import burger from '../../assets/image/burger1.jpg'
 
@@ -19,20 +19,26 @@ const Navbar = () => {
     x: isToogledMenu ? 0 : 100
   })
 
+  const open = useSpring({
+    config: config.default,
+    from: { width: '0%'},
+    to: { width: isToogledMenu? '100%' : '0%' }
+  })
   return (
     <>
     <div className='header'>
         <div className='menu' onClick={toogleMenuHandler}>
-          <div className='burgerClass'></div>
-          <div className='burgerClass'></div>
-          <div className='burgerClass'></div>
+          <div className='burgerClassLine'></div>
+          <div className='burgerClassLine'></div>
+          <div className='burgerClassLine'></div>
         </div>
         <div className='navbarTitle'>Flamingo</div>
         <div><Palma size='40px' color='#F7E987'/></div>
     </div>
     { isToogledMenu &&
       <animated.div className='menuClass'
-        style={{ transform: x.interpolate(x => `translate3d(${x * -1}%, 0, 0)`) }}>
+        style={{ transform: x.interpolate(x => `translate3d(${x * -1}%, 0, 0)`) }}
+        >
         <div className='menuXClass'>
           <X size='30px' color='#9AA0A4' onClick={toogleMenuHandler}/>
         </div>

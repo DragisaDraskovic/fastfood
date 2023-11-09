@@ -2,6 +2,8 @@
     width: 100vw;
     height: 15vw;
     background-color: #445069;
+    position: fixed;
+    bottom: 0;
 }
 
 .footerContainer {

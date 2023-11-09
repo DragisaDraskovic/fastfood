@@ -22,11 +22,10 @@
     cursor: pointer;
 }
 
-.burgerClass {
+.burgerClassLine {
     background-color: #9AA0A4;
     width: 25px;
-    height: 4px;
-    border-radius: 5px;
+    height: 3px;
 }
 
 .menuClass {
@@ -67,5 +66,5 @@
 
 .menuText {
     color: rgb(154, 160, 164);
-    text-shadow: 1px 10px 15px #9AA0A4;
+    text-shadow: 0px 0px 80px #9AA0A4;
 }

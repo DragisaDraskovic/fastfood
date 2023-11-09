@@ -9,10 +9,10 @@ const Magic = () => {
   return (
     <div>
         <div className='magicDescription'>
-            <h2 className='magicText'> GLADNI STE?</h2>
-            <h2 className='magicText'> JESTE LI PROBALI NAŠE SPECIJALITETE?</h2>
-            <h2 className='magicText'> POGLEDAJTE ISPOD KAKO MAGIJA FUNKCIONIŠE KOD NAS!</h2>
-            <ArrowDown size='60px' color='#F7E987' className='magicArrow'/>
+            <p className='magicText'> GLADNI STE?</p>
+            <p className='magicText'> JESTE LI PROBALI NAŠE SPECIJALITETE?</p>
+            <p className='magicText'> POGLEDAJTE ISPOD KAKO MAGIJA FUNKCIONIŠE KOD NAS!</p>
+            <ArrowDown size='70px' color='#F7E987' className='magicArrow'/>
         </div>
         <img src={orderBurger} className='magicImage'/>
     </div>
