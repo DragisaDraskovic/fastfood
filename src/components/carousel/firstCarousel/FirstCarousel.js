@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './FirstCarousel.css'
+import { useNavigate } from 'react-router'
 
 import Card from '../../card/Card'
 import useEmblaCarousel from 'embla-carousel-react'
@@ -10,20 +11,19 @@ import imgTortilla from '../../../assets/image/tortilla1.jpg'
 import imgSendwitsch from '../../../assets/image/sendwitsch.jpg'
 import imgKaradjordjeva from '../../../assets/image/karadjordjeva.jpg'
 
-const testClcik = () => {
-  console.log('kliknuto na podmeniju')
-}
 
 const FirstCarousel = () => {
   const [emblaRef] = useEmblaCarousel()
+  const navigate = useNavigate()
+
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        <div className="embla__slide" onClick={testClcik}><Card image={imgBurger} text='ROŠTILJ'/></div>
-        <div className="embla__slide"><Card image={imgTortilla} text='TORTILJE'/></div>
-        <div className="embla__slide"><Card image={imgKaradjordjeva} text='SPECIJALITETI'/></div>
-        <div className="embla__slide"><Card image={imgSendwitsch} text='SENDVIČI'/></div>
-        <div className="embla__slide"><Card image={imgFries} text='POMFRIT'/></div>
+        <div className="embla__slide" onClick={() => navigate('/grill')}><Card image={imgBurger} text='ROŠTILJ'/></div>
+        <div className="embla__slide" onClick={() => navigate('/tortilla')}><Card image={imgTortilla} text='TORTILJE'/></div>
+        <div className="embla__slide" onClick={() => navigate('/specialties')}><Card image={imgKaradjordjeva} text='SPECIJALITETI'/></div>
+        <div className="embla__slide" onClick={() => navigate('/sandwich')}><Card image={imgSendwitsch} text='SENDVIČI'/></div>
+        <div className="embla__slide" onClick={() => navigate('/fires')}><Card image={imgFries} text='POMFRIT'/></div>
       </div>
     </div>
   )

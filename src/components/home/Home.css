@@ -1,0 +1,11 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeTitle {
+    color: #9AA0A4;
+    font-size: 30px;
+    font-family: 'El Messiri';
+    align-self: center;
+}
