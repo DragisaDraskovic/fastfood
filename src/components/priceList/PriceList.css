@@ -1,3 +1,9 @@
-.imena {
-    color: aliceblue;
+.priceListContainer {
+    width: 100vw;
+    height: 182vw;
+}
+
+.priceListImg {
+    width: 100vw;
+    margin-bottom: 35px;
 }

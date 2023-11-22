@@ -2,9 +2,13 @@ import React from 'react'
 
 import './PriceList.css'
 
+import priceListImg from '../../assets/image/menuLast.jpg'
+
 const PriceList = () => {
   return (
-    <div className='imena'>PriceList</div>
+    <div className='priceListContainer'>
+      <img src={priceListImg} className='priceListImg' />
+    </div>
   )
 }
 
