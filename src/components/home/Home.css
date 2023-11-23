@@ -1,11 +1,14 @@
-.homeContainer {
-    display: flex;
-    flex-direction: column;
-}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
-.homeTitle {
-    color: #9AA0A4;
-    font-size: 30px;
-    font-family: 'El Messiri';
-    align-self: center;
+    .homeContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homeTitle {
+        color: #9AA0A4;
+        font-size: 30px;
+        font-family: 'El Messiri';
+        align-self: center;
+    }
 }

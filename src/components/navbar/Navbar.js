@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className='burgerClassLine'></div>
         </div>
         <div className='navbarTitle' onClick={() => navigate('/home')}>Flamingo</div>
-        <div><Palma size='40px' color='#F7E987' onClick={() => navigate('/home')}/></div>
+        <div className='palmIcon'><Palma size='40px' color='#F7E987' onClick={() => navigate('/home')}/></div>
     </div>
     { isToogledMenu &&
       <animated.div className='menuClass'

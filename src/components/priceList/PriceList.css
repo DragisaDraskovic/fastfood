@@ -1,9 +1,12 @@
-.priceListContainer {
-    width: 100vw;
-    height: 182vw;
-}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
-.priceListImg {
-    width: 100vw;
-    margin-bottom: 35px;
+    .priceListContainer {
+        width: 100vw;
+        height: 182vw;
+    }
+
+    .priceListImg {
+        width: 100vw;
+        margin-bottom: 35px;
+    }
 }

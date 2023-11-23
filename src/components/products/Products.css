@@ -1,9 +1,12 @@
-.productContainer {
-    padding-top: 15px;
-    padding-bottom: 70px;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'El Messiri';
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .productContainer {
+        padding-top: 15px;
+        padding-bottom: 70px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'El Messiri';
+    }
 }

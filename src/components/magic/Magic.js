@@ -7,7 +7,7 @@ import { AiOutlineArrowDown as ArrowDown} from 'react-icons/ai'
 
 const Magic = () => {
   return (
-    <div>
+    <div className='magicContainer'>
         <div className='magicDescription'>
             <p className='magicText'> GLADNI STE?</p>
             <p className='magicText'> JESTE LI PROBALI NAŠE SPECIJALITETE?</p>
