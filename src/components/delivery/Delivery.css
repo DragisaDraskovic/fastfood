@@ -1,0 +1,36 @@
+.deliveryContainer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.deliveryImgFirst {
+    width: 250px;
+    height: 250px;
+    transform: rotate(-40deg);
+    transition-duration: 2s;
+}
+
+.deliveryImgSecond {
+    width: 250px;
+    height: 250px;
+    transform: rotate(0deg);
+    transition-duration: 2s;
+}
+
+.deliveryImgFirst:hover {
+    transform: rotate(0);
+}
+
+.deliveryDescriptionText {
+    margin-top: 100px;
+    color: #F7E987;
+    text-align: center;
+    font-family: 'Bona Nova', serif;
+}
+
+.deliveryDescriptionNumber {
+    color: #F7E987;
+    margin-bottom: 50px;
+}
+
