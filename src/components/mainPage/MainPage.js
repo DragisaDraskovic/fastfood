@@ -17,7 +17,7 @@ import Home from '../home/Home'
 
 const MainPage = () => {
   return (
-    <>
+    <div className='mainPage'>
         <Navbar />
         <Routes>
           <Route path='/' element={ <Home />} />
@@ -34,7 +34,7 @@ const MainPage = () => {
         </Routes>
         <MainFooter />
         <ScrollButton />
-    </>
+    </div>
   )
 }
 

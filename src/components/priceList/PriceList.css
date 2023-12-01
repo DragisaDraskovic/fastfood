@@ -16,7 +16,7 @@
 
     .priceListContainer {
         width: 100vw;
-        height: 75%;
+        height: 100vh;
         display: flex;
         justify-content: center;
     }
@@ -27,3 +27,35 @@
         margin-bottom: 35px;
     }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .priceListContainer {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .priceListContainer {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .priceListImg {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .priceListContainer {
+        display: flex;
+        justify-content: center;
+    }
+}
+

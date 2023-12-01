@@ -4,8 +4,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        align-items: center;
         margin-bottom: 15px;
+        height: 100vh;
+        width: 100%;
     }
 
     .deliveryImgSecond {
@@ -45,9 +46,98 @@
 @media only screen and (min-width: 481px) and (max-width: 768px){
 
     .deliveryContainer {
+        width: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .deliveryDescriptionText {
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        color: #F7E987;
+        text-align: center;
+        font-family: 'Bona Nova', serif;
+    }
+
+    .deliveryDescriptionNumber {
+        color: #F7E987;
+        margin-bottom: 50px;
+    }
+
+    .deliveryImgSecond {
+        width: 50px;
+        height: 50px;
+        transform: rotate(0deg);
+        transition-duration: 2s;
+    }
+
+    .deliveryImgFirst {
+        width: 200px;
+        height: 200px;
+        transform: rotate(-40deg);
+        transition-duration: 2s;
+    }
+
+    .deliveryImgFirst:hover {
+        transform: rotate(0);
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .deliveryContainer {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .deliveryDescriptionText {
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        color: #F7E987;
+        text-align: center;
+        font-family: 'Bona Nova', serif;
+    }
+
+    .deliveryDescriptionNumber {
+        color: #F7E987;
+        margin-bottom: 50px;
+    }
+
+    .deliveryImgSecond {
+        width: 50px;
+        height: 50px;
+        transform: rotate(0deg);
+        transition-duration: 2s;
+    }
+
+    .deliveryImgFirst {
+        width: 200px;
+        height: 200px;
+        transform: rotate(-40deg);
+        transition-duration: 2s;
+    }
+
+    .deliveryImgFirst:hover {
+        transform: rotate(0);
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .deliveryContainer {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         margin-bottom: 15px;
     }

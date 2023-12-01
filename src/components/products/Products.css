@@ -23,3 +23,30 @@
         font-family: 'El Messiri';
     }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .productContainer {
+        margin: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-column-gap: 3px;
+        grid-row-gap: 3px;
+        font-family: 'El Messiri';
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .productContainer {
+        margin: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-column-gap: 3px;
+        grid-row-gap: 3px;
+        font-family: 'El Messiri';
+        align-items: center;
+    }
+}

@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+
 import './Navbar.css'
+
 import { GiPalmTree as Palma } from 'react-icons/gi'
 import { VscChromeClose as X } from 'react-icons/vsc'
 import { animated, useSpring } from 'react-spring'
